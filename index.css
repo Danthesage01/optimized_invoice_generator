@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 1em;
+    }
+    .container{
+        width: 550px;
+        height: auto;
+        margin: 0 auto;
+        background: #1F2937;
+        margin-top: 7%;
+    }
+    .first-layer{
+        background: #3A69D2;
+        padding: 30px;
+        margin: 25px 0;
+        text-align: center;
+    }
+    .first-layer h1{
+        color: #FFFFFF;
+        font-size: 40px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .first-layer p{
+        color: #FFFFFF;
+        margin-top: 2px;
+    }
+    .second-layer{
+        margin: 5px 10px;
+        padding: 0 20px;
+    }
+    .service-btn button{
+        padding: 15px;
+        font-size: 15px;
+        background: #D1D4F4;
+        border: 2px solid #FFFFFF;
+        border-radius: 7px;
+        margin:15px 8px;
+        color: #4A4E74;
+    } 
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 0;
+        font-size: 2em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #D1D4F4;
+        list-style: none;
+    }
+    .display{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .text-accent{
+    font-size: small;
+    }
+    .sum-text{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .disable-btn {
+        background: #999;
+        color: #555;
+        cursor: not-allowed;
+    }
+    .reset-btn{
+        width: 100%;
+        color: #FFFFFF;
+        background-color: #3A69D2;
+        padding: 9px 17px 9px 15px;
+        margin: 25px 0;
+        border: none;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 7px;
+    }
+    .reset-btn .text-space{
+        margin-left: 5px;
+    }
+
+    .btn {
+        transition: .5s ease-in;
+    }
+
+    .btn:hover {
+        transform: scale(1);
+
+    }

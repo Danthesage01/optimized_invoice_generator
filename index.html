@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Invoice Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-layer">
+            <h1>Invoice Creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </div>
+        <div class="second-layer">
+            <div class="service-btn">
+                <button id="btn0" onclick="cart(0)" class="btn"><span class="service">Wash Car</span>: <span
+                        class="price">$10</span></button>
+                <button id="btn1" onclick="cart(1)" class="btn"><span class="service">Mow Lawn</span>: <span
+                        class="price">$20</span></button>
+                <button id="btn2" onclick="cart(2)" class="btn"><span class="service">Pull Weeds</span>: <span
+                        class="price">$30</span></button>
+            </div>
+            <div>
+                <p class="display"><span class="left">TASK </span><span class="right" id="aside">TOTAL</span></p>
+            </div>
+            <ul id="gridContainer" class="grid">
+
+            </ul>
+            <div>
+                <p class="display"><span class="text-left" id="text-left">NOTES</span> <span class="text-right"
+                        id="text-right">TOTAL AMOUNT</span></p>
+                <p class="display"> <span class="text-accent">We accept cash, credit card, or paypal</span> <span
+                        class="sum-text" id="sum"></span></p>
+                <button class="reset-btn"><img src="Icon.png" alt="mail"> <span class="text-space">SEND
+                        INVOICE</span></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+</body>
